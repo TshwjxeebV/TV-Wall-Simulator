@@ -755,7 +755,7 @@ document.addEventListener("DOMContentLoaded", () => {
         sliderWrapper.style.transform = `translateY(-${currentGlobalSlide * 100}vh)`;
 
         if(currentGlobalSlide === 0) { navPrev.classList.remove('visible'); navNext.innerText = "Start Module ❯"; navNext.style.display = 'block'; } 
-        else if (currentGlobalSlide === 6 || currentGlobalSlide === 7 || currentGlobalSlide === 8) { navPrev.classList.add('visible'); navNext.style.display = 'none'; } 
+        else if (currentGlobalSlide === 6 || currentGlobalSlide === 7 || currentGlobalSlide === 9) { navPrev.classList.add('visible'); navNext.style.display = 'none'; } 
         else { navPrev.classList.add('visible'); navNext.style.display = 'block'; navNext.innerText = "Continue ❯"; }
         updateNextButton();
 
