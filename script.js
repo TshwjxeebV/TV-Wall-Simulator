@@ -731,11 +731,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.addEventListener('click', () => uiSound.init(), { once: true });
     
     let currentGlobalSlide = 0;
-    const totalSlides = 9; 
+    const totalSlides = 10; 
     const sliderWrapper = document.getElementById('slider-wrapper');
     const navPrev = document.getElementById('nav-prev');
     const navNext = document.getElementById('nav-next');
-    let slideCompletion = [true, false, false, false, false, false, true, false, true]; 
+    let slideCompletion = [true, false, false, false, false, false, true, false, true, false]; 
     window.slideControllers = {};
     let moduleCompleted = false;
 
